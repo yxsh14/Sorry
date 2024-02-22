@@ -1,0 +1,73 @@
+/* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://cdn.pixabay.com/photo/2017/07/24/16/28/copy-space-2535266_1280.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.App h1{
+  color: rgb(159, 37, 37)
+}
+.App-header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 10px 0;
+  color: white;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #272a2d;
+  color: #fff;
+}
+
+.button-container button:hover {
+  background-color: #121212;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .card {
+    max-width: 80%;
+  }
+}
+.card img {
+  border-radius: 20px; 
+}

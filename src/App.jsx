@@ -25,8 +25,8 @@ function App() {
         <h4>-Brett</h4>
         
         <div className="button-container">
-          <button onClick={handleForgive}>Yes</button>
-          <button onClick={handleNotForgive}>No</button>
+          <button onClick={handleForgive}>Accept</button>
+          <button onClick={handleNotForgive}>Decline</button>
         </div>
         {showCard && (
           <div className="card">

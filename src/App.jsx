@@ -21,8 +21,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Maafi-Nama</h1>
-        <h2>I'm really sorry Prachi. Won't ever happen again!</h2>
-        <h4>-Brett</h4>
+        <h2>Will you be mine again sorry for everything </h2>
+        <h4>-Andrew</h4>
         
         <div className="button-container">
           <button onClick={handleForgive}>Accept</button>
@@ -30,8 +30,8 @@ function App() {
         </div>
         {showCard && (
           <div className="card">
-            <h2>{forgiven ? 'Hurray!' : 'Oh No!'}</h2>
-            <p>{forgiven ? 'Thank you for accepting my apologies. See you in college tomorrow.' : 'You have to forgive me'}</p>
+            <h2>{forgiven ? 'Hurray!' : 'Please Think Again.'}</h2>
+            <p>{forgiven ? 'Thank you for accepting my apologies.' : 'You have to forgive me'}</p>
             <img src={forgiven ? celebrationImage : cryingImage} alt={forgiven ? 'Celebration' : 'Crying'} />
           </div>
         )}

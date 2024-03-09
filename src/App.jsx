@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Maafi-Nama</h1>
-        <h2>Will you be mine again sorry for everything </h2>
+        <h2>Will you be mine again Sara, Sorry for everything. </h2>
         <h4>-Andrew</h4>
         
         <div className="button-container">
